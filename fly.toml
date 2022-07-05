@@ -1,0 +1,7 @@
+# fly.toml file generated for quirrel-redis-bootstrap-app on 2022-07-04T11:38:03-03:00
+
+app = "quirrel-redis-bootstrap-app"
+
+[[mounts]]
+  destination = "/data"
+  source = "redis_data"
